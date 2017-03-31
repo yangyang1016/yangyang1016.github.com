@@ -5,6 +5,11 @@ html {
 body {
   height: 100%;
   overflow: hidden;
+}
+.wrap {
+  height: 100%;
+  max-width: 640px;
+  margin: 0 auto;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: column;
@@ -25,7 +30,7 @@ header h1 {
   margin-left: 0.8rem;
 }
 header a {
-  font-size: 0.75rem;
+  font-size: 16px;
   color: #fff;
   position: absolute;
   top: 0.6rem;
@@ -45,13 +50,13 @@ header a {
   height: 1.3rem;
   display: -webkit-flex;
   display: flex;
-  font-size: 0.75rem;
+  font-size: 16px;
 }
 .main nav ul li {
   width: 3.1rem;
   height: 1.3rem;
   line-height: 1.3rem;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   box-sizing: border-box;
   text-align: center;
 }
@@ -104,7 +109,7 @@ header a {
   left: 0;
   padding: 0 0.5rem;
   box-sizing: border-box;
-  font-size: 0.65rem;
+  font-size: 14px;
   color: #fff;
 }
 .main .banner ol {
@@ -129,7 +134,7 @@ header a {
   border-bottom: 1px solid #e6e6e6;
 }
 .main .news ul li h4 {
-  font-size: 0.85rem;
+  font-size: 17px;
 }
 .main .news ul li h4 a {
   display: block;
@@ -142,7 +147,7 @@ header a {
 }
 .main .news ul li section {
   color: #a9a9a9;
-  font-size: 0.6rem;
+  font-size: 12px;
   margin-top: 0.75rem;
 }
 .main .news ul li section .news-list-left span {
@@ -185,12 +190,12 @@ header a {
   text-align: center;
   line-height: 1rem;
   color: #494949;
-  font-size: 0.65rem;
+  font-size: 14px;
   margin-top: 0.5rem;
 }
 .main .nextPage {
   text-align: center;
-  font-size: 0.75rem;
+  font-size: 16px;
   line-height: 1.5rem;
   padding-bottom: 0.5rem;
 }
@@ -212,7 +217,7 @@ header a {
   float: left;
   height: 0.75rem;
   line-height: 0.75rem;
-  font-size: 0.75rem;
+  font-size: 16px;
 }
 .main footer ul li a {
   color: #555;
@@ -221,7 +226,7 @@ header a {
   margin: 0 0.5rem;
 }
 .main footer p {
-  font-size: 0.55rem;
+  font-size: 12px;
   color: #686868;
   text-align: center;
   margin-top: 0.9rem;
