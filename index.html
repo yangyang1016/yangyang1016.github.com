@@ -2,623 +2,170 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>灵魂回响</title>
-		<link rel="stylesheet" type="text/css" href="css/base.css"/>
-		<link rel="stylesheet" type="text/css" href="css/index.css"/>
-		<script src="js/index.js" type="text/javascript"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>驱动之家</title>
+		<link rel="stylesheet" type="text/css" href="dist/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="dist/index.css"/>
+		<script src="js/swiper-3.4.1.min.js"></script>
+		<script src="js/index.js"></script>
 	</head>
 	<body>
-		<!--头部-->
-		<div class="header">
-			<div class="header_top clearfix">
-				<a class="top_logo" href="javascript:;">畅游</a>
-				<ul class="clearfix">
-					<li class="top_reg fl">
-						<a href="javascript:;">
-							<span></span>
-							注册
+		<header>
+			<h1></h1>
+			<a href="javascript:;">传统版</a>
+		</header>
+		<div class="main">
+			<nav>
+				<ul>
+					<li class="active"><a href="javascript:;">全部</a></li>
+					<li><a href="javascript:;">硬件</a></li>
+					<li><a href="javascript:;">软件</a></li>
+					<li><a href="javascript:;">手机</a></li>
+					<li><a href="javascript:;">科技</a></li>
+				</ul>
+			</nav>
+			<section class="banner swiper-container">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide">
+						<a href="javascirpt:;">
+							<img src="images/banner1.jpg" alt="" />
+							<p>N饭真幸福：359.06版游戏驱动发布</p>
 						</a>
 					</li>
-					<li class="top_charge fl">
-						<a href="javascript:;">
-							<span></span>
-							充值
+					<li class="swiper-slide">
+						<a href="javascirpt:;">
+							<img src="images/banner2.jpg" alt="" />
+							<p>正式版来了！AMD全新驱动套件下载</p>
 						</a>
 					</li>
-					<li class="top_cy fl">
-						<a href="javascript:;">
-							<span></span>
-							畅游+
+					<li class="swiper-slide">
+						<a href="javascirpt:;">
+							<img src="images/banner3.jpg" alt="" />
+							<p>金山装机联机—装软件享终身领工资</p>
 						</a>
-					</li>
-					<li class="top_service pull_down fl">
-						<p>客服</p>
-						<div></div>
-					</li>
-					<li class="top_cyser pull_down fl">
-						<p>畅游全服务</p>
-						<div></div>
-					</li>
-					<li class="top_cygame pull_down fl">
-						<p>畅游全游戏</p>
-						<div></div>
 					</li>
 				</ul>
-			</div>
-		</div>
-		
-		<!--导航-->
-		<div class="nav_wrap clearfix">
-			<a class="logo fl" href="javascript:;">
-				<h1>灵魂回响</h1>
-			</a>
-			<ul class="nav fr clearfix">
-				<li>
-					<a href="javascript:;">
-						<p>首页</p>
-						<small>HOME</small>
-					</a>
-				</li>
-				<li>
-					<a href="javascript:;">
-						<p>新闻公告</p>
-						<small>NEWS</small>
-					</a>
-				</li>
-				<li>
-					<a href="javascript:;">
-						<p>游戏特色</p>
-						<small>FEATURES</small>
-					</a>
-				</li>
-				<li>
-					<a href="javascript:;">
-						<p>新手指南</p>
-						<small>NEWBIE</small>
-					</a>
-				</li>
-				<li>
-					<a href="javascript:;">
-						<p>游戏下载</p>
-						<small>DOWNLOAD</small>
-					</a>
-				</li>
-				<li>
-					<a href="javascript:;">
-						<p>活动专区</p>
-						<small>ACTIVTY</small>
-					</a>
-				</li>
-				<li>
-					<a href="javascript:;">
-						<p>视觉欣赏</p>
-						<small>VIDEO&PICTURE</small>
-					</a>
-				</li>
-				<li>
-					<a href="javascript:;">
-						<p>玩家互动</p>
-						<small>INTERACTION</small>
-					</a>
-				</li>
-				<li>
-					<a href="javascript:;">
-						<p>客户服务</p>
-						<small>SERVICE</small>
-					</a>
-				</li>
-			</ul>
-			<a class="nav_gift fl" href="javascript:;">点赞赢豪礼</a>
-		</div>
-		
-		<!--中间内容部分-->
-		<div class="content">
-			<!--游戏下载-->
-			<div class="download clearfix">
-				<div class="dl_left fl">
-					<div class="sub_nav clearfix">
-						<a class="game_dl" href="javascript:;">游戏下载</a>
-						<a class="reg" href="javascript:;">账号注册</a>
-						<a class="charge" href="javascript:;">账号充值</a>
-						<a class="exchange" href="javascript:;">兑换中心</a>
-						<a class="newbie" href="javascript:;">新手指南</a>
-					</div>
-					<div class="banner">
-						<ul class="page clearfix" id="page">
-							<li class="active">1</li>
-							<li>2</li>
-							<li>3</li>
-							<li>4</li>
-							<li>5</li>
-						</ul>
-						<div class="banner_img" id="banner_img">
-							<a href="javascript:;"><img class="oblock" src="image/main_a1.jpg" alt=""/></a>
-							<a href="javascript:;"><img src="image/main_a2 (1).jpg" alt=""/></a>
-							<a href="javascript:;"><img src="image/main_a2 (2).jpg" alt=""/></a>
-							<a href="javascript:;"><img src="image/main_a2 (3).jpg" alt=""/></a>
-							<a href="javascript:;"><img src="image/main_a2.jpg" alt=""/></a>
-							<span class="official">官方</span>
-							<span class="medium">媒体</span>
-						</div>
-					</div>
-				</div>
-				<div class="dl_right fr">
-					<div class="dl_r_top">
-						<div class="recommend">
-							<p>
-								<a href="javascript:;">电信一区&nbsp;<span>【元素殿堂】</span>欢迎进驻！</a>
-							</p>
-							<p>
-								<a href="javascript:;">网通一区&nbsp;<span>【雷霆之怒】</span>欢迎进驻！</a>
-							</p>
-						</div>
-						<div class="links clearfix">
-							<p class="renew">距您上次访问有<a class="num" href="javascript:;">200</a>条更新<a class="renew_icon" href="javascript:;"></a></p>
-							<p class="focus clearfix">
-								<span>关注：</span>
-								<a class="wechat" href="javascript:;">微信</a>
-								<a class="sina" href="javascript:;">微博</a>
-								<a class="tencent" href="javascript:;">腾讯微博</a>
-							</p>
-						</div>
-					</div>
-					<div class="dl_r_bottotm">
-						<ul class="dl_tab1 clearfix" id="dl_tab1">
-							<li>综合</li>
-							<li class="active">新闻</li>
-							<li>公告</li>
-							<li>媒体</li>
-						</ul>
-						<div class="dl_tab2" id="dl_tab2">
-							<div>
-								 <h6>4月8日大版开启 新职业术士魔神天降1</h6>
-								 <ul>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”1</a>
-								 		<span>02/24</span>
-								 	</li>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”</a>
-								 		<span>02/24</span>
-								 	</li>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”</a>
-								 		<span>02/24</span>
-								 	</li>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”</a>
-								 		<span>02/24</span>
-								 	</li>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”</a>
-								 		<span>02/24</span>
-								 	</li>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”</a>
-								 		<span>02/24</span>
-								 	</li>
-								 </ul>
-								 <p class="more clearfix"><a href="javascript:;">更多信息</a></p>
+				<ol class="swiper-pagination clearfix"></ol>
+			</section>
+			<script type="text/javascript">
+				new Swiper('.swiper-container', {
+					pagination : '.swiper-pagination',
+					paginationElement: 'li',
+					autoplay : 3000,
+					autoplayDisableOnInteraction: false,
+					loop: true
+				});	
+			</script>
+			<section class="news">
+				<ul>
+					<li>
+						<h4><a href="javascript:;">金发美女+比基尼在零重力下的诱惑</a></h4>
+						<section class="clearfix">
+							<div class="news-list-left fl">
+								<span>潇潇</span>|<span>5分钟前</span>
 							</div>
-							<div class="oblock">
-								 <h6>4月8日大版开启 新职业术士魔神天降2</h6>
-								 <ul>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”2</a>
-								 		<span>02/24</span>
-								 	</li>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”</a>
-								 		<span>02/24</span>
-								 	</li>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”</a>
-								 		<span>02/24</span>
-								 	</li>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”</a>
-								 		<span>02/24</span>
-								 	</li>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”</a>
-								 		<span>02/24</span>
-								 	</li>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”</a>
-								 		<span>02/24</span>
-								 	</li>
-								 </ul>
-								 <p class="more clearfix"><a href="javascript:;">更多信息</a></p>
+							<div class="news-list-right fr">
+								<span>2</span><i></i>
 							</div>
-							<div>
-								 <h6>4月8日大版开启 新职业术士魔神天降3</h6>
-								 <ul>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”3</a>
-								 		<span>02/24</span>
-								 	</li>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”</a>
-								 		<span>02/24</span>
-								 	</li>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”</a>
-								 		<span>02/24</span>
-								 	</li>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”</a>
-								 		<span>02/24</span>
-								 	</li>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”</a>
-								 		<span>02/24</span>
-								 	</li>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”</a>
-								 		<span>02/24</span>
-								 	</li>
-								 </ul>
-								 <p class="more clearfix"><a href="javascript:;">更多信息</a></p>
+						</section>
+					</li>
+					<li>
+						<h4><a href="javascript:;">三星入门4G手机续航测试：秒掉Nexus5</a></h4>
+						<section class="clearfix">
+							<div class="news-list-left fl">
+								<span>小呆</span>|<span>2小时前</span>
 							</div>
-							<div>
-								 <h6>4月8日大版开启 新职业术士魔神天降4</h6>
-								 <ul>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”4</a>
-								 		<span>02/24</span>
-								 	</li>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”</a>
-								 		<span>02/24</span>
-								 	</li>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”</a>
-								 		<span>02/24</span>
-								 	</li>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”</a>
-								 		<span>02/24</span>
-								 	</li>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”</a>
-								 		<span>02/24</span>
-								 	</li>
-								 	<li>
-								 		<a href="javascript:;">【新闻】决战开启！6月4日全新Raid本“暗黑城”</a>
-								 		<span>02/24</span>
-								 	</li>
-								 </ul>
-								 <p class="more clearfix"><a href="javascript:;">更多信息</a></p>
+							<div class="news-list-right fr">
+								<span>16</span><i></i>
 							</div>
+						</section>
+					</li>
+					<li>
+						<h4><a href="javascript:;">PSV版《生化奇兵》到底还有木有了？</a></h4>
+						<section class="clearfix">
+							<div class="news-list-left fl">
+								<span>黄栋</span>|<span>2小时前</span>
+							</div>
+							<div class="news-list-right fr">
+								<span>6</span><i></i>
+							</div>
+						</section>
+					</li>
+					<li>
+						<h4><a href="javascript:;">苏宁架构大调：设八大直属独立公司</a></h4>
+						<section class="clearfix">
+							<div class="news-list-left fl">
+								<span>小路</span>|<span>2小时前</span>
+							</div>
+							<div class="news-list-right fr">
+								<span>2</span><i></i>
+							</div>
+						</section>
+					</li>
+					<li>
+						<h4><a href="javascript:;">百度薅羊毛继续：一分钱换迅雷白金会员</a></h4>
+						<section class="clearfix">
+							<div class="news-list-left fl">
+								<span>鲲鹏</span>|<span>3小时前</span>
+							</div>
+							<div class="news-list-right fr">
+								<span>21</span><i></i>
+							</div>
+						</section>
+					</li>
+					<li>
+						<div>
+							<a href="javascript:;">
+								<img src="images/news1.png" alt="" />
+								<p>触目惊心 解密iPhone翻新全过程</p>
+							</a>
 						</div>
-					</div>
-				</div>
-			</div>
-			
-			<!--banner下边-->
-			<ul class="ads clearfix">
-				<li>
-					<a href="javascript:;"><img src="image/main_a2 (3).jpg" alt="" /></a>
-				</li>
-				<li>
-					<a href="javascript:;"><img src="image/main_a2 (1).jpg" alt="" /></a>
-				</li>
-				<li>
-					<a href="javascript:;"><img src="image/main_a2 (2).jpg" alt="" /></a>
-				</li>
-				<li class="last">
-					<a href="javascript:;"><img src="image/main_a2.jpg" alt="" /></a>
-				</li>
-			</ul>
-			
-			<!--角色-->
-			<div class="role clearfix">
-				<div class="role_sec fl">
-					<ul class="role_name clearfix" id="role_name">
-						<li>神射手</li>
-						<li>守护者</li>
-						<li>魔法师</li>
-						<li class="active">战士</li>
-						<li>刺客</li>
-					</ul>
-					<div class="role_detail" id="role_detail">
-						<a href="javascript:;"><img src="image/header_main.jpg" alt="" /></a>
-						<a href="javascript:;"><img src="image/examen.jpg" alt="" /></a>
-						<a href="javascript:;"><img src="image/main_a2 (2).jpg" alt="" /></a>
-						<a href="javascript:;"><img class="oblock" src="image/zhanshi.jpg" alt="" /></a>
-						<a href="javascript:;"><img src="image/main_a3.jpg" alt="" /></a>
-					</div>
-				</div>
-				<div class="activity fr">
-					<h6><span>bg</span>活动中心</h6>
-					<div class="activity_img">
-						<a href="javascript:;"><img src="image/1.jpg" alt="" /></a>
-						<div class="cover"></div>
-						<p><a href="javascript:;">女武神的密宝</a></p>
-					</div>
-					<ul>
-						<li>
-							<a href="javascript:;">神偷者的成长礼</a>
-							<span>进行中</span>
-						</li>
-						<li>
-							<a href="javascript:;">女神赐福助力成长，老友归来大礼相赠</a>
-							<span>进行中</span>
-						</li>
-						<li>
-							<a href="javascript:;">赫尔墨斯的宝库，尼凯亚大陆奇珍异宝</a>
-							<span>进行中</span>
-						</li>
-						<li>
-							<a href="javascript:;">绑定畅游+，送十格背包</a>
-							<span>进行中</span>
-						</li>
-						<li>
-							<a href="javascript:;">每日登录有惊喜</a>
-							<span>进行中</span>
-						</li>
-					</ul>
-				</div>			
-			</div>
-			
-			<!--快捷入口-->
-			<div class="entrance clearfix">
-				<div class="entr_left fl">
-					<div class="quick_entry">
-						<h6>快捷入口</h6>
-						<ul class="clearfix">
-							<li class="fl"><a href="javascript:;">&middot;账号管理</a></li>
-							<li class="fr"><a href="javascript:;">&middot;兑换中心</a></li>
-							<li class="fl"><a href="javascript:;">&middot;账号安全</a></li>
-							<li class="fr"><a href="javascript:;">&middot;畅游知道</a></li>
-							<li class="fl"><a href="javascript:;">&middot;BUG提交</a></li>
-							<li class="fr"><a href="javascript:;">&middot;客户端FAQ</a></li>
-							<li class="fl"><a href="javascript:;">&middot;玩家社区</a></li>
-							<li class="fr"><a href="javascript:;">&middot;加速器下载</a></li>
-						</ul>
-					</div>
-					<div class="media_co">
-						<div class="media_img">
-							<a href="javascript:;"><img src="image/main_a3.jpg"/></a>
-							<span class="prev"></span>
-							<span class="next"></span>
+						<div>
+							<a href="javascript:;">
+								<img src="images/news2.png" alt="" />
+								<p>东芝消费级5TB硬盘突然上市，真便宜</p>
+							</a>
 						</div>
-						<div class="media_btn">媒体合作专区</div>
-					</div>
-					<a class="survey" href="#"></a>
-				</div>
-				
-				<div class="entr_mid fl">
-					<!--玩家交流-->
-					<div class="player">
-						<h5><i></i>玩家交流</h5>
-						<div class="player_top clearfix">
-							<ul class="fl clearfix" id="player">
-								<li class="active"><a href="javascript:;">玩家攻略</a></li>
-								<li><a href="javascript:;">论坛热帖</a></li>
-								<li><a href="javascript:;">社区精华</a></li>
-							</ul>
-							<a class="more fl" href="javascript:;">更多信息</a>
-						</div>
-						<div class="player_bottom" id="player_bottom">
-							<div class="oblock">
-								<img src="image/wj.jpg" alt="" />
-								<ul>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读1</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读1</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-								</ul>
+					</li>
+					<li>
+						<h4><a href="javascript:;">真正有生命的鞋子：活体细胞合成材料制成</a></h4>
+						<section class="clearfix">
+							<div class="news-list-left fl">
+								<span>潇潇</span>|<span>5小时前</span>
 							</div>
-							<div>
-								<img src="image/wj.jpg" alt="" />
-								<ul>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读2</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读2</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-								</ul>
+							<div class="news-list-right fr">
+								<span>12</span><i></i>
 							</div>
-							<div>
-								<img src="image/wj.jpg" alt="" />
-								<ul>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读3</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读3</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-								</ul>
+						</section>
+					</li>
+					<li>
+						<h4><a href="javascript:;">做工如何？神州899元5寸四核机大拆解</a></h4>
+						<section class="clearfix">
+							<div class="news-list-left fl">
+								<span>雪花</span>|<span>5小时前</span>
 							</div>
-							<div>
-								<img src="image/wj.jpg" alt="" />
-								<ul>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读4</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读4</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-								</ul>
+							<div class="news-list-right fr">
+								<span>19</span><i></i>
 							</div>
-						</div>
-					</div>
-					<!--媒体专区-->
-					<div class="media">
-						<h5><i></i>媒体专区</h5>
-						<div class="media_top clearfix">
-							<ul class="fl clearfix" id="media">
-								<li class="active"><a href="javascript:;">17132</a></li>
-								<li><a href="javascript:;">新浪爱问</a></li>
-								<li><a href="javascript:;">太平洋游戏</a></li>
-							</ul>
-							<a class="more fl" href="javascript:;">更多信息</a>
-						</div>
-						<div class="media_bottom" id="media_bottom">
-							<div class="oblock">
-								<img src="image/1031.jpg" alt="" />
-								<ul>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读1</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读1</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-								</ul>
-							</div>
-							<div>
-								<img src="image/1031.jpg" alt="" />
-								<ul>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读2</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读2</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-								</ul>
-							</div>
-							<div>
-								<img src="image/1031.jpg" alt="" />
-								<ul>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读3</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读3</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-									<li><a href="javascript:;">&middot;生活技能之烹饪技能详细解读</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<div class="entr_right fr">
-					<!--游戏资料-->
-					<div class="data">
-						<h5><i></i>游戏资料</h5>
-						<div class="data_btom">
-							<ul>
-								<li>
-									<span>新手入门</span>
-									<p>
-										<a href="javascript:;">注册账号</a> |
-										<a href="javascript:;">下载游戏</a> |
-										<a href="javascript:;">登录游戏</a>
-									</p>
-								</li>
-								<li>
-									<span>职业介绍</span>
-									<p>
-										<a href="javascript:;">刺客</a> |
-										<a href="javascript:;">神射手</a> |
-										<a href="javascript:;">守护者</a>
-									</p>
-								</li>
-								<li>
-									<span class="bg2">旅行者日记</span>
-									<p>
-										<a href="javascript:;">雷班斯</a> |
-										<a href="javascript:;">弗耳图斯</a> |
-										<a href="javascript:;">赫利亚纳</a>
-									</p>
-								</li>
-								<li class="last">
-									<span class="bg2">神谕者指引</span>
-									<p>
-										<a href="javascript:;">1-19级</a> |
-										<a href="javascript:;">20-39级</a> |
-										<a href="javascript:;">40-49级</a>
-									</p>
-								</li>
-							</ul>
-							<p class="data_sta"><a href="javascript:;">进入资料站</a></p>
-						</div>	
-					</div>
-					<!--视觉欣赏-->
-					<div class="vision">
-						<h5><i></i>视觉欣赏</h5>
-						<div class="vision_top clearfix">
-							<ul class="fl clearfix" id="vision">
-								<li class="active"><a href="javascript:;">游戏视频</a></li>
-								<li><a href="javascript:;">游戏截图</a></li>
-							</ul>
-							<a class="more fl" href="javascript:;">更多信息</a>
-						</div>
-						<div class="vision_bottom" id="vision_bottom">
-							<ul class="oblock">
-								<li class="fl">
-									<a href="javascript:;"><img src="image/3.jpg" alt="" /></a>
-								</li>
-								<li class="fr">
-									<a href="javascript:;"><img src="image/2.jpg" alt="" /></a>
-								</li>
-								<li class="fl">
-									<a href="javascript:;"><img src="image/1 (1).jpg" alt="" /></a>
-								</li>
-								<li class="fr">
-									<a href="javascript:;"><img src="image/4.jpg" alt="" /></a>
-								</li>
-							</ul>
-							<ul>
-								<li class="fl">
-									<a href="javascript:;"><img src="image/1 (1).jpg" alt="" /></a>
-								</li>
-								<li class="fr">
-									<a href="javascript:;"><img src="image/4.jpg" alt="" /></a>
-								</li>
-								<li class="fl">
-									<a href="javascript:;"><img src="image/3.jpg" alt="" /></a>
-								</li>
-								<li class="fr">
-									<a href="javascript:;"><img src="image/2.jpg" alt="" /></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			<!--健康游戏公告-->
-			<div class="notice">
-				<div class="notice_top">健康游戏公告</div>
-				<div class="notice_text">
-					<p>抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活</p>
-					<p>本游戏适合18周岁以上的成年人用户，未满18周岁的未成年人用户请在家长的监督下进行游戏。</p>
-				</div>
-			</div>
-		</div>
-		
-		<!--底部-->
-		<div class="footer">
-			<div class="foot_con clearfix">
-				<a class="foot_logo fl" href="javascript:;"><img src="image/footer_logo.png" alt="" /></a>
-				<a class="foot_img fl" href="javascript:;"><img src="image/footer2.png" alt="" /></a>
-				<div class="text fl">
-					<p>北京畅游时代数码技术有限公司版权所有 COPYRIGHT 2011 CHANGYOU.COM LIMITED.ALL RIGHTS　RESERED．
-						<a href="javascript:;">法律声明</a> |
-						<a href="javascript:;">联系我们</a>
-					</p>
-					<p>京网文[2011]0260-093号 | 京ICP证：070525号</p>
-				</div>
-			</div>
+						</section>
+					</li>
+				</ul>
+			</section>
+			<section class="nextPage">
+				<a href="javascript:;">【下一页】</a>
+			</section>
+			<footer>
+				<ul class="clearfix">
+					<li><a href="javascript:;">Pad版</a></li>
+					<li class="space">|</li>
+					<li><a href="javascript:;">触屏版</a></li>
+					<li class="space">|</li>
+					<li><a href="javascript:;">传统版</a></li>
+				</ul>
+				<p>京ICP备&emsp;11024344号-7&emsp;驱动之家&nbsp;京公网安</p>
+			</footer>
 		</div>
 	</body>
 </html>

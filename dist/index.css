@@ -1,0 +1,228 @@
+html {
+  height: 100%;
+  font-size: 20px;
+}
+body {
+  height: 100%;
+  overflow: hidden;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+header {
+  width: 100%;
+  height: 2.2rem;
+  border-bottom: 4px solid #bab0b9;
+  background-color: #e3020a;
+  position: relative;
+}
+header h1 {
+  width: 5.6rem;
+  height: 2rem;
+  background: url(../images/logo.png) no-repeat;
+  background-size: contain;
+  margin-left: 0.8rem;
+}
+header a {
+  font-size: 0.75rem;
+  color: #fff;
+  position: absolute;
+  top: 0.6rem;
+  right: 1.5rem;
+}
+.main {
+  -webkit-flex: 1;
+  flex: 1;
+  overflow: auto;
+}
+.main nav {
+  height: 1.3rem;
+  background-color: #f6f6f6;
+  padding: 0.15rem 0.25rem 0.2rem;
+}
+.main nav ul {
+  height: 1.3rem;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 0.75rem;
+}
+.main nav ul li {
+  width: 3.1rem;
+  height: 1.3rem;
+  line-height: 1.3rem;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  text-align: center;
+}
+.main nav ul li a {
+  color: #2d2d2d;
+}
+.main nav ul li.active {
+  border-color: #c20c09;
+  background-color: #fef2f2;
+}
+.main nav ul li.active a {
+  color: #ab3c05;
+}
+.main .banner {
+  width: 100%;
+  height: 8.35rem;
+  overflow: hidden;
+  position: relative;
+}
+.main .banner ul {
+  width: 80rem;
+  height: 8rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-flex;
+  display: flex;
+}
+.main .banner ul li {
+  width: 16rem;
+  height: 8rem;
+  position: relative;
+}
+.main .banner ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.main .banner ul li img {
+  width: 100%;
+  height: 100%;
+}
+.main .banner ul li p {
+  width: 100%;
+  height: 1.3rem;
+  background: rgba(0, 0, 0, 0.5);
+  line-height: 1.3rem;
+  position: absolute;
+  bottom: -0.35rem;
+  left: 0;
+  padding: 0 0.5rem;
+  box-sizing: border-box;
+  font-size: 0.65rem;
+  color: #fff;
+}
+.main .banner ol {
+  width: 1.5rem;
+  height: 0.25rem;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.75rem;
+}
+.main .banner ol li {
+  float: left;
+  width: 0.25rem;
+  height: 0.25rem;
+  background-color: #a8a7ac;
+  margin: 0 0.125rem;
+}
+.main .banner ol .swiper-pagination-bullet-active {
+  background-color: #fff;
+}
+.main .news ul li {
+  padding: 0.95rem 0.5rem 0.4rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+.main .news ul li h4 {
+  font-size: 0.85rem;
+}
+.main .news ul li h4 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #2d2d2d;
+}
+.main .news ul li h4 a:active {
+  color: #89181a;
+}
+.main .news ul li section {
+  color: #a9a9a9;
+  font-size: 0.6rem;
+  margin-top: 0.75rem;
+}
+.main .news ul li section .news-list-left span {
+  margin: 0 0.5rem;
+}
+.main .news ul li section .news-list-right i {
+  display: inline-block;
+  width: 0.875rem;
+  height: 0.85rem;
+  background: url(../images/comment.png) no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  margin-left: 0.25rem;
+  margin-right: 0.5rem;
+}
+.main .news ul li:nth-child(6) {
+  display: -webkit-flex;
+  display: flex;
+  height: 9rem;
+  border-bottom: none;
+}
+.main .news ul li:nth-child(6) div {
+  width: 50%;
+  height: 9rem;
+  box-sizing: border-box;
+  padding-top: 1.5rem;
+}
+.main .news ul li:nth-child(6) div a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.main .news ul li:nth-child(6) div img {
+  display: block;
+  width: 6rem;
+  height: 4.5rem;
+  margin: 0 auto;
+}
+.main .news ul li:nth-child(6) div p {
+  text-align: center;
+  line-height: 1rem;
+  color: #494949;
+  font-size: 0.65rem;
+  margin-top: 0.5rem;
+}
+.main .nextPage {
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+.main .nextPage a {
+  color: #000;
+}
+.main footer {
+  background-color: #eee;
+  border-top: 1px solid #d8d8d8;
+  padding-top: 0.8rem;
+  padding-bottom: 0.9rem;
+}
+.main footer ul {
+  width: 9.2rem;
+  height: 0.75rem;
+  margin: 0 auto;
+}
+.main footer ul li {
+  float: left;
+  height: 0.75rem;
+  line-height: 0.75rem;
+  font-size: 0.75rem;
+}
+.main footer ul li a {
+  color: #555;
+}
+.main footer ul li.space {
+  margin: 0 0.5rem;
+}
+.main footer p {
+  font-size: 0.55rem;
+  color: #686868;
+  text-align: center;
+  margin-top: 0.9rem;
+}
