@@ -4,7 +4,7 @@ html {
 }
 body {
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .wrap {
   height: 100%;
@@ -217,7 +217,7 @@ header a {
   float: left;
   height: 0.75rem;
   line-height: 0.75rem;
-  font-size: 16px;
+  font-size: 15px;
 }
 .main footer ul li a {
   color: #555;
